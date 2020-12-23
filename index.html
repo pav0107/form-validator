@@ -4,34 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Form validator</title>
+    <title>Win a trip to Mars!</title>
 </head>
 <body>
-
+    
     <div class="container">
         <form id="form" class="form">
-            <h2>Register with us</h2>
+            <h2>Win a trip to Mars!</h2>
+            <h3>Sign up today</h3>
             <div class="form-control">
-                <label for="username">Username</label>
-                <input type="text" id="username" placeholder="Enter username">
+                <label for="username">Username *</label>
+                <input type="text" id="username" name="username">
+                <h5>* Username should be between 3 and 15 characters</h5>
                 <small>Error message</small>
             </div>
             <div class="form-control">
                 <label for="email">Email</label>
-                <input type="text" id="email" placeholder="Enter email">
+                <input type="text" id="email" name="id">
                 <small>Error message</small>
             </div>
             <div class="form-control">
-                <label for="password">Password</label>
-                <input type="password" id="password" placeholder="Enter password (min 8 characters)">
+                <label for="password">Password *</label>
+                <input type="password" id="password">
+                <h5>* Password should contain at least 8 characters, one capital letter, one number and one special character</h5>
                 <small>Error message</small>
             </div>
             <div class="form-control">
                 <label for="password2">Confirm password</label>
-                <input type="password" id="password2" placeholder="Confirm password again">
+                <input type="password" id="password2" name="password">
                 <small>Error message</small>
             </div>
-            <button>Submit</button>
+            <button type="submit">Submit</button>
         </form>
     </div>
     
