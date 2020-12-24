@@ -1,5 +1,9 @@
 This is a simple form validator.
 
+manipulating classes
+regex for validation
+
+
 https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/about-readmes
 
 Password validation from stackoverflow
